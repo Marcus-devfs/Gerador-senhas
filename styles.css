@@ -1,0 +1,55 @@
+*{
+    margin: 0 auto;
+}
+
+section.container-fluid{
+    background-color: #cfcfcf;
+    height: 100vh;
+}
+
+#caixa{
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#imagem{
+    font-size: 1000px;
+}
+
+.container .form-label{
+    color: rgb(44, 44, 44);
+}
+
+#title-tamanho{
+   font-size: 20px;
+}
+
+#title-password{
+    color: rgb(24, 24, 24);
+}
+
+#password{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 114, 114);
+    margin: auto;
+    border: 1px solid rgb(110, 110, 110);
+    transition: transform 0.3s;
+}
+
+
+#container-password .button{
+    padding: 10px 10px;
+}
+
+#password:hover{
+transform:scale(0.5.05);
+cursor: pointer;
+border: 1px solid rgb(255, 255, 255);
+transition: 0.3s;
+}
+
+.hide{
+    display: none;
+}
